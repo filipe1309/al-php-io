@@ -1,0 +1,9 @@
+SOLID com PHP: Princípios da programação orientada a objetos
+Design Patterns em PHP: Padrões comportamentais
+Design Patterns em PHP: Padrões estruturais
+Design Patterns em PHP: Padrões criacionais
+PHP e TDD: Testes com PHPUnit
+Testes de integração com PHP: Testando o acesso à API e ao banco de dados
+PHP e Behavior Driven Development: BDD com Behat
+PHP e Clean Architecture: Descomplicando arquitetura de software
+PHP e Domain Driven Design: Apresentando os conceitos
