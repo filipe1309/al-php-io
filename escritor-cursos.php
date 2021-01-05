@@ -1,8 +1,8 @@
 <?php
 
-$arquivo = fopen('cursos-php.txt', 'w');
+$arquivo = fopen('cursos-php.txt', 'a');
 
-$curso = 'Design Patterns em PHP: Padrões comportamentais';
+$curso = "\nDesign Patterns em PHP: Padrões estruturais";
 
 fwrite($arquivo, $curso);
 
