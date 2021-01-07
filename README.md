@@ -52,7 +52,7 @@ Filters with `file()`, `file_get_contents()`, `readfile()`:
 php://filter
 https://www.php.net/manual/en/wrappers.php.php
 
-## Class 3
+## Class 4
 ### STDIN
 Read STDIN from keyboard
 ```php
