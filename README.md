@@ -52,3 +52,25 @@ Filters with `file()`, `file_get_contents()`, `readfile()`:
 php://filter
 https://www.php.net/manual/en/wrappers.php.php
 
+## Class 3
+### STDIN
+Read STDIN from keyboard
+```php
+fopen('php://stdin', 'r'); // Or const STDIN
+```
+Resources from `php://` Wrapper doesn't need to close
+
+### STDOUT
+Write on STDOUT
+```php
+fopen('php://stdout', 'r'); // Or const STDOUT
+```
+Dont use buffer
+
+### STDERR
+Write on STDERR
+```php
+fopen('php://stderr', 'r'); // Or const STDERR
+```
+
+https://stackoverflow.com/questions/7027902/does-echo-equal-fputs-stdout
