@@ -90,3 +90,22 @@ $ zip --encrypt arquivos_com_senha.zip cursos-php.txt lista-cursos.txt
 ```
 
 Files: leitor-zip-senha.php, arquivos_com_senha.zip
+
+
+## Class 6 - Specific functions
+
+`file()` read files and return an array
+
+`fputcsv()` write lines in csv
+
+`dir()` return an object of Direcory class, that can be used to get infos about same directory of the system
+https://www.php.net/manual/en/class.directory.php
+
+### Manage files with Object notation with the Standard PHP Library (Spl)
+
+`SplFileObject()` class
+https://www.php.net/manual/en/spl.files.php
+
+https://www.php.net/manual/en/book.spl.php
+
+Files: `spl.php`
