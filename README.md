@@ -77,7 +77,8 @@ https://stackoverflow.com/questions/7027902/does-echo-equal-fputs-stdout
 
 ## Class 5 - Context in streams
 
-Context is used to add extra infos to streams
+Context is used to add extra infos to streams.
+Each Stream Wrapper (like `http://`, `zip://`, etc) has it's own context configuration.
 
 ### Create context to streams
 `stream_context_create`
