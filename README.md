@@ -74,3 +74,18 @@ fopen('php://stderr', 'r'); // Or const STDERR
 ```
 
 https://stackoverflow.com/questions/7027902/does-echo-equal-fputs-stdout
+
+## Class 5 - Context in streams
+
+Context is used to add extra infos to streams
+
+### Create context to streams
+`stream_context_create`
+https://www.php.net/manual/en/context.php
+
+Create zip with password
+```
+$ zip --encrypt arquivos_com_senha.zip cursos-php.txt lista-cursos.txt
+```
+
+Files: leitor-zip-senha.php, arquivos_com_senha.zip
