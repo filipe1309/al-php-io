@@ -12,7 +12,7 @@ foreach ($meusCursos as $curso) {
 }
 
 foreach ($outrosCursos as $curso) {
-    $linha = [ trim(utf8_decode($$curso)), 'Nao' ];
+    $linha = [ trim(utf8_decode($curso)), 'Nao' ];
     fputcsv($arquivoCsv, $linha, ';');
     // fwrite($arquivoCsv, implode(';', $linha));
 }
