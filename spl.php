@@ -6,10 +6,10 @@ $arquivosCursos = new SplFileObject('cursos.csv');
 
 while(!$arquivosCursos->eof()) {
     $linha = $arquivosCursos->fgetcsv(';');
-    echo $linha[0] . PHP_EOL;
+    echo utf8_encode($linha[0]) . PHP_EOL;
 }
 
-echo 'SplFileObject get ewxtra info from file:' . PHP_EOL;
+echo 'SplFileObject get extra info from file:' . PHP_EOL;
 
 $date = new DateTime();
 $date->setTimestamp($arquivosCursos->getCTime());
