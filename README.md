@@ -109,3 +109,22 @@ https://www.php.net/manual/en/spl.files.php
 https://www.php.net/manual/en/book.spl.php
 
 Files: `spl.php`
+
+## Class 7 - Encondig
+
+Encondigs/charsets (ASCII, UTF-8, UTF-16) is an Unicode table implmentation
+
+Excel = Enconding WINDOWS-1252
+
+### Simple Encode/Decode with uft8 functions
+
+`utf8_decode()` move chars from UTF-8 to ISO-8859-1 (almost identical to WINDOWS-1252)
+
+`utf8_encode()` move chars from ISO-8859-1 to UTF-8
+
+### Complex Encode/Decode with Multibyte string (mbstring) extension
+
+Multibyte = Beyound ASCII
+https://www.php.net/manual/en/book.mbstring.php
+
+`mb_strtoupper()`
